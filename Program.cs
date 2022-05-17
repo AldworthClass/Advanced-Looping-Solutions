@@ -10,7 +10,7 @@ namespace Advanced_Looping_Solutions
     {
         static void Main(string[] args)
         {
-            LoopQ4();
+            LoopQ7();
             Console.ReadLine();
         }
 
@@ -52,6 +52,36 @@ namespace Advanced_Looping_Solutions
             {
                 for (int j = 0; j < 5; j++)
                     Console.Write("* ");
+                Console.WriteLine("");
+            }
+        }
+
+        public static void LoopQ5()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 20; j++)
+                    Console.Write("* ");
+                Console.WriteLine("");
+            }
+        }
+
+        public static void LoopQ6()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                    Console.Write($"{j} ");
+                Console.WriteLine("");
+            }
+        }
+
+        public static void LoopQ7()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                    Console.Write($"{i} ");
                 Console.WriteLine("");
             }
         }
