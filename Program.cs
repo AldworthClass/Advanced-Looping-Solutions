@@ -90,6 +90,16 @@ namespace Advanced_Looping_Solutions
         {
             for (int i = 0; i < 10; i++)
             {
+                for (int j = 0; j <= i; j++)
+                    Console.Write($"{j} ");
+                Console.WriteLine("");
+            }
+        }
+
+        public static void LoopQ9()
+        {
+            for (int i = 0; i < 10; i++)
+            {
                 // Spaces
                 for (int k = 0; k < i; k++)
                     Console.Write("  ");
