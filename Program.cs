@@ -199,7 +199,7 @@ namespace Advanced_Looping_Solutions
             Console.ReadLine();
         }
 
-        // Displays Menu
+        // Menu Loop and Choice Input
         public static void Menu()
         {
             string choice = "";
